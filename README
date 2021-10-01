@@ -1,2 +1,18 @@
 my custom patched dwm, changed the readme so it doesn't display original one from dwm devs
-write here about the patches, hope i don't forget
+
+---------------------------------------
+v1.0
+---------------------------------------
+Patches:
+*alpha
+*cyclelayouts
+*fancybar
+*fibonacci
+*functionalgaps+pertag
+*hide_vacant_tags
+*selfrestart
+*restartsig
+
+Changes:
+*working fn volume up down mute keys
+*not working fn brightness up down keys
