@@ -1,7 +1,7 @@
-my custom patched dwm, changed the readme so it doesn't display original one from dwm devs
+my custom patched dwm used on my zoomer laptop asus vivobook X413JA-EB468 running arch linux.
 
 ---------------------------------------
-v1.0
+v1.01
 ---------------------------------------
 Patches:
 *alpha
@@ -13,6 +13,6 @@ Patches:
 *selfrestart
 *restartsig
 
-Changes:
+Additions:
 *working fn volume up down mute keys
 *not working fn brightness up down keys
