@@ -39,8 +39,8 @@ static const char *downvol[] = {"/usr/bin/pactl", "set-sink-volume", "0", "-5%",
 static const char *mutevol[] = {"/usr/bin/pactl", "set-sink-mute", "0", "toggle", NULL };
 
 /* brightness */
-static const char *upbright[] = {"/usr/bin/xbacklight", "-inc", "5", NULL };
-static const char *downbright[] = {"/usr/bin/xbacklight", "-dec", "5", NULL };
+static const char *upbright[] = {"brightnessctl", "set", "5%+", NULL };
+static const char *downbright[] = {"brightnessctl", "set", "5%-", NULL };
 
 /* tagging */
 static const char *tags[] = { "α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι" };
@@ -135,7 +135,7 @@ static Key keys[] = {
 	{ 0,                            XF86XK_AudioLowerVolume, spawn, {.v = downvol } },
 	{ 0,                            XF86XK_AudioRaiseVolume, spawn, {.v = upvol } },
 	{ 0,                            XF86XK_AudioMute,        spawn, {.v = mutevol } },
-	/* brightness fn keys 'currently not working'*/
+	/* brightness fn keys */
 	{ 0,                            XF86XK_MonBrightnessUp,   spawn, {.v = upbright } },
 	{ 0,                            XF86XK_MonBrightnessDown, spawn, {.v = downbright } }
 };
