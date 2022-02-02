@@ -39,8 +39,8 @@ static const char *downvol[] = {"/usr/bin/pactl", "set-sink-volume", "0", "-5%",
 static const char *mutevol[] = {"/usr/bin/pactl", "set-sink-mute", "0", "toggle", NULL };
 
 /* brightness */
-static const char *upbright[] = {"brightnessctl", "set", "5%+", NULL };
-static const char *downbright[] = {"brightnessctl", "set", "5%-", NULL };
+static const char *upbright[] = {"brightnessctl", "set", "2%+", NULL };
+static const char *downbright[] = {"brightnessctl", "set", "2%-", NULL };
 
 /* tagging */
 static const char *tags[] = { "α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι" };
